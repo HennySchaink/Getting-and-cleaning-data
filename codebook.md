@@ -57,7 +57,8 @@ activity_names :
   
 activity_name :     
 
-     FUNCTION that replaces an number that characterizes an activity by the corresponding name of that activity
+     FUNCTION that replaces an number that characterizes an activity by the corresponding 
+     name of that activity
   
 activity :    
 
@@ -86,9 +87,9 @@ subject_activity :
 find_fragment :     
 
      FUNCTION which locates a given character sequence in a character variable. 
-                                        Here it is used to identify features which have a name that contains either 
-                                        the sequence 'mean' or 'std' in their name. The function 'regexpr' return a 
-                                        value <0 when the sought character sequence is present in the variable.
+     Here it is used to identify features which have a name that contains either 
+     the sequence 'mean' or 'std' in their name. The function 'regexpr' return 
+     a value <0 when the sought character sequence is present in the variable.
   
 mean_true :     
 
@@ -100,7 +101,8 @@ std_true :
   
 data_selection :     
 
-     Boolean which states which elements in feature_names contain the character set 'mean' or the character set 'std
+     Boolean which states which elements in feature_names contain the character set 'mean' 
+     or the character set 'std
   
 feature_selection :     
 
